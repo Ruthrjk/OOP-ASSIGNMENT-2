@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Ada Lovelace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .biography {
+            margin: 30px 0;
+        }
+        
+        .achievements {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .quote {
+            font-style: italic;
+            font-size: 1.2em;
+            color: #34495e;
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ada Lovelace</h1>
+            <p class="subtitle">The First Computer Programmer</p>
+        </header>
 
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Ada_lovelace.jpg" alt="Portrait of Ada Lovelace">
+            <p class="caption">Ada Lovelace (1815-1852)</p>
+        </div>
+
+        <div class="biography">
+            <h2>Biography</h2>
+            <p>Augusta Ada King, Countess of Lovelace, was an English mathematician and writer who made significant contributions to early computing. She is celebrated for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
+            
+            <p>Born into aristocracy as the daughter of poet Lord Byron, Lovelace was educated in mathematics and science at her mother's insistence - unusual for women in the early 19th century. This unique upbringing positioned her to make revolutionary contributions to computer science.</p>
+        </div>
+
+        <div class="achievements">
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Wrote the first algorithm intended to be processed by a machine</li>
+                <li>Recognized that computers could go beyond mere calculation and could be used to create music and art</li>
+                <li>Published detailed notes on the Analytical Engine, which included what is recognized as the first computer program</li>
+                <li>Developed the concept of looping in computer programs</li>
+            </ul>
+        </div>
+
+        <div class="quote">
+            "That brain of mine is something more than merely mortal; as time will show."
+        </div>
+
+        <div class="legacy">
+            <h2>Legacy</h2>
+            <p>Ada Lovelace's contributions to computer science were not fully appreciated until long after her death. Today, she is recognized as a pioneer in the field of computer programming. The programming language Ada was named in her honor, and Ada Lovelace Day is celebrated annually to honor women in science and technology.</p>
+        </div>
+
+        <footer>
+            <p>Created for BSD 313 Internet Programming Assignment</p>
+        </footer>
+    </div>
+</body>
+</html>
